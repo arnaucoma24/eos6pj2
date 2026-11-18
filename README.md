@@ -2,7 +2,8 @@
 
 Encodes a molecule as 1,024 features with NaFM, a scaffold-aware graph foundation model that Ding and colleagues pretrained on the COCONUT natural product collection by combining contrastive learning with masked subgraph reconstruction. Separating scaffold-level biosynthetic signal from side-chain decoration lets the embedding serve taxonomy classification, the linking of metabolites to biosynthetic gene clusters, and virtual screening. Natural product chemistry is the intended domain, and individual dimensions carry no direct chemical reading.
 
-This model was incorporated on 2026-08-03.Last packaged on 2026-08-03.
+This model was incorporated on 2026-08-03.
+Last packaged on 2026-08-03.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 1024 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6pj2](https://hub.docker.com/r/ersiliaos/eos6pj2)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pj2.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pj2.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos6pj2_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos6pj2_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `305`
